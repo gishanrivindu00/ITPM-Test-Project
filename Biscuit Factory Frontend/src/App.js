@@ -38,6 +38,7 @@ import EmpDetails from "./components/Payment_Management/EmpDetails";
 import Lhome from "./components/Payment_Management/Lhome";
 import LReport from "./components/Payment_Management/Lreport";
 import AddOnlinePayment from './components/Payment_Management/AddOnlinePayment';
+import OnlinepayAll from './components/Payment_Management/OnlinePayment';
 import './style/Lstyle.css';
 
 class App extends Component {
@@ -82,6 +83,7 @@ class App extends Component {
         <Route path="/payment" exact component={Lhome}></Route>
         <Route path="/payment/report" component={LReport}></Route>
         <Route path="/payment/online/add" component={AddOnlinePayment}></Route>
+        <Route path="/payment/onlinee" component={OnlinepayAll}></Route>
       </div>
       </BrowserRouter>
       </div>

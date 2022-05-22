@@ -42,20 +42,15 @@ const { Account_H_Name, Account_No, Contact, Amount } = onlinepayDetails;
 
                     })
                 }
-                history.push('/opayments');
+                history.push('/payment/onlinee');
             });
         }
 
     return (
        
             <div className="container1">
-                <div class="topnav">
-                    <a class="active" href="/">Home</a>
-                    <a href="/payment">All Payment Details</a>
-                    <a href="/payment/add">Add Employee Salary</a>
-                    <a href="/payment/opayments">Online Payments</a>
-                    <a href="/payment/opayments/add">Add Online Payments</a>
-                </div>
+                <NavBar/>
+               
                 <br></br>
                 <center>
                 <h2> Add New Online Payment </h2>
