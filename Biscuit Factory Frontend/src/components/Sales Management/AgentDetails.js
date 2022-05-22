@@ -30,7 +30,7 @@ retrieveAgents(){
 
 onDelete = (id) =>{
 
-  axios.delete(`http://localhost:8000/agents/delete/${id}`).then((res) =>{
+  axios.delete(`http://localhost:8000/agent/delete/${id}`).then((res) =>{
     alert("Deleted Successfully");
     this.retrieveAgents();
   })
@@ -101,9 +101,9 @@ handleSearchArea = (e) =>{
                 <td>{agent.District}</td>
                 <td>{agent.Telephone_No}</td>
                 <td>
-                  <a className="btn btn-warning" href={`/agents/edit/${agent._id}`}>
+                  {/* <a className="btn btn-warning" href={`/sales/agents/edit/${agent._id}`}>
                     <i className="fas fa-edit"></i>&nbsp;Edit
-                  </a>
+                  </a> */}
                   &nbsp;
                   <a className="btn btn-danger" href="#" onClick={() =>this.onDelete(agent._id)}>
                     <i className="far fa-trash-alt"></i>&nbsp;Delete
