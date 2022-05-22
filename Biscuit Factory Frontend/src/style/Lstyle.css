@@ -1,0 +1,97 @@
+
+/*add employee*/
+.div{
+ padding-top:7em;
+
+ background-position: right;
+ background-repeat: no-repeat;
+ background-size: cover;
+ min-height: 50vh;
+ display: flex;
+ justify-content: center;
+}
+.Lh3{
+    padding:10px;
+    font-size:20px;
+    font-weight:bold;
+    display: flex;
+    justify-content: center;
+}
+.Lform{
+    padding-left:250px;
+    padding-right:250px;
+    padding-bottom:30px;
+   
+}
+
+#bankAccount{ 
+     padding-bottom:30px;
+}
+.LButton { padding: 6px 50px;
+}
+.Lerror{
+    color:	#FF0000 !important;
+}
+
+
+/*edit*/   
+    .Lcontainer{
+        background: '#f5f5f5';
+        padding-Top:100;
+        padding-Right:200;
+        padding-Left:200;
+        margin:30;
+        
+    }
+    .LPform{
+    padding:30;
+    }
+    .subButton{
+        padding-Left:30;
+        padding-Right:30;
+    }
+
+/*home*/    
+    .div{
+ background: #f5f5f5;
+min-height: 100vh;
+padding-top: 6em;
+    }
+.Ltable{
+padding:10px;
+font-size:15px;
+}
+
+
+
+/*NavBar*/
+.bg-dark {
+  background-color: #333 !important;
+}
+.navbar {
+  padding: 14px 16px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  font-size: 17px;
+  padding-left: 20px;
+  justify-content: space-around;
+  font-weight: bold;
+  color: #00488f;
+}
+
+/*report*/
+.div-rep{
+ background: #f5f5f5;
+min-height: 100vh;
+padding-top: 20px;
+}
+.table{
+padding:10px;
+font-size:15px;
+}
+/*end*/
+
+
+
+
